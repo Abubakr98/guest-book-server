@@ -8,7 +8,7 @@ const getComments = async (req, res) => {
     const comments = await Comments.find({}, ['name', 'message', 'date']).sort({
       date: sort,
     })
-    res.status(201).json(comments)
+    res.status(200).json(comments)
   } catch (error) {
     res.status(500).json({ message: error.message })
   }
