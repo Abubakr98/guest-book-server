@@ -8,8 +8,8 @@ module.exports = (body) => {
   if (!message) errors.push('field "message" must be provided and cannot be empty')
   if (!date) errors.push('field "date" must be provided and cannot be empty')
 
-  if (!name.match(regex) || !message.match(regex))
-    errors.push('use only letters, numbers and underscores!')
+  if (!name.match(regex))
+    errors.push('use only letters, numbers and underscores for "name" field!')
 
   return errors
 }
