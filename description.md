@@ -32,6 +32,6 @@
 
 ### Ссылки:
 
-Ссылка на рабочую задеплоенную версию приложения: [https://guest-server.herokuapp.com/](https://guest-server.herokuapp.com/)
-Ссылка на исходный код сервера [https://github.com/Abubakr98/guest-book-server](https://github.com/Abubakr98/guest-book-server)
-Ссылка на исходный код клиента [https://github.com/Abubakr98/guest-book-ui](https://github.com/Abubakr98/guest-book-ui)
+Ссылка на рабочую задеплоенную версию приложения: [https://guest-server.herokuapp.com/](https://guest-server.herokuapp.com/).
+Ссылка на исходный код сервера [https://github.com/Abubakr98/guest-book-server](https://github.com/Abubakr98/guest-book-server).
+Ссылка на исходный код клиента [https://github.com/Abubakr98/guest-book-ui](https://github.com/Abubakr98/guest-book-ui).
