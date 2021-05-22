@@ -4,7 +4,7 @@ const Comments = mongoose.model('Comments')
 
 const getComments = async (req, res) => {
   try {
-    const sort = req.query.sort.trim()
+    const sort = req.query.sort?.trim() || 'asc'
     const comments = await Comments.find({}, ['_id', 'name', 'message']).sort({
       date: sort,
     })
