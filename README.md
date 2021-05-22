@@ -1,3 +1,8 @@
+## Add environment variables to make this application work
+
+Create .env file and add environment variable with name "DB_URI" this is a MongoDB URI. Or
+add this variable in the preferences of your hosting.
+
 ## Available Scripts
 
 In the project directory, you can run:
