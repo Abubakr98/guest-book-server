@@ -7,11 +7,15 @@ add this variable in the preferences of your hosting.
 
 In the project directory, you can run:
 
+### `yarn install`
+
+Run this command for installing dependencies.
+
 ### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Runs the app in the development mode.
+Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
 
 ### `yarn format`
 
-Runs formatting with prettier.\
+Runs formatting with prettier.
